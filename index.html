@@ -81,8 +81,34 @@
       float: right;
     }
      @media (max-width: 600px) {
-
-      /* CSS for screens below or equal to 600px wide */
+ below or equal to 600px wide */
+ .first-card {
+      grid-column: span 2;
+      background-color: 
+      #211f38;
+      height: 200px;
+       }
+       .card {
+      background-color: brown;
+      position: relative;
+      top: 200px;
+      height: 150px;
+       }
+       h1 {
+      font-size: 10px;
+      display: inline;
+      padding: 10px;
+      color: white;
+      font-family: Montserrat Alternates", sans-serif;
+       }
+        
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 75px 150px;
+      }
+      }
+    
   </style>
 </head>
 <body>
